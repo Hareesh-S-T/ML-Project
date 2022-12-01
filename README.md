@@ -11,16 +11,19 @@ Dataset Link : https://data.mendeley.com/datasets/trwfmgjjr6/1
 
 # Model Development
 ## Importing the Dataset
-- Images were downloaded from the above linked dataset and imported in greyscale.
+- Images were downloaded from the above linked dataset.
 ## Preprocessing the Data
 - These images were then converted to 300*300 pixel matrices before further pre-processing.
-- K-Means clustering and Otsu's Threshold algorithm were used to segment the image into foreground and background components and convert these into binary images.
+- K-Means clustering was used to separate the foreground from the background and Otsu's Threshold algorithm was used to binarize the image.
 ### Feature Extraction
-- Grey-Level Co-Occurence Matrices (or GLCMs) were constructed for the images at increments of 45 degrees to extract 4 textural properties - “ASM” or Energy, “Contrast”, “Dissimilarity”, “Correlation”, and “Homogeneity”.
-- These quantifiable properties were used to build the actual model.
-### Model Building
-- The machine learning model built in this project uses the Random Forest Classifier.
+- Grey-Level Co-Occurence Matrices (or GLCMs) were constructed for the images at increments of 45 degrees to extract 5 textural properties - “ASM” or Energy, “Contrast”, “Dissimilarity”, “Correlation”, and “Homogeneity”.
+- These quantifiable properties form the dataset that the model is built on.
+### Training and Testing
+- The dataset formed after feature extraction was split into testing and training data in the ratio of 8:2.
+- The Random Forest Classifier, an Ensemble Learning approach was used to build the machine learning model.
 - Hyperparameter tuning was used to find ideal model parameters for improved performance.
+### Model Validation
+- Various metrics such as the Accuracy Score, Precision, Recall, and F1 Score were used to validate model performance.
 
 ## Contributors
 - Prathyuma V - 20MIA1030
