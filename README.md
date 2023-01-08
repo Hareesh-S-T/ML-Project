@@ -1,5 +1,5 @@
 # Tip Burn Disease Detection in Strawberry Leaves 
-This project uses Machine Learning and Digital Image Processing Techhniques to detect "tipburn" in Strawberry Leaves.
+This project uses Machine Learning and Digital Image Processing Techniques to detect "tipburn" in Strawberry Leaves.
 
 Dataset Link : https://data.mendeley.com/datasets/trwfmgjjr6/1
 
