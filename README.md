@@ -1,7 +1,6 @@
 # Tip Burn Disease Detection in Strawberry Leaves 
-This project uses Machine Learning and Digital Image Processing Techniques to detect "tipburn" in Strawberry Leaves.
 
-Dataset Link : https://data.mendeley.com/datasets/trwfmgjjr6/1
+> Prathyuma, V., Hareesh Teja, S., Suganeshwari, G., Divya, S. (2024). Assessing the Feasibility and Scalability of Using Spark for Identifying Tip Burn Diseases in Strawberry Leaves. In: Das, S., Saha, S., Coello Coello, C.A., Bansal, J.C. (eds) Advances in Data-Driven Computing and Intelligent Systems. ADCIS 2023. Lecture Notes in Networks and Systems, vol 891. Springer, Singapore. https://doi.org/10.1007/978-981-99-9524-0_26
 
 ## Repository Structure
 - ElectronFrontEnd - A desktop frontend application to send images to the backend
